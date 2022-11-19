@@ -25,7 +25,10 @@ export default function Catalog() {
 				<div className="catalog-page container">
 					<div className="product-grid">
 						{nodes.map((product) => (
-							<ProductCard product={product}></ProductCard>
+							<ProductCard
+								key={product.handle}
+								product={product}
+							></ProductCard>
 						))}
 					</div>
 				</div>
