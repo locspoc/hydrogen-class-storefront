@@ -38,4 +38,14 @@ yarn preview
 
 ## Caching Issue
 
-yarn dev --force
+```yarn dev --force
+
+```
+
+## Hydrogen on Netlify
+
+```https://docs.netlify.com/integrations/frameworks/hydrogen/
+https://github.com/netlify/hydrogen-platform#installation
+npm i -D @netlify/hydrogen-platform
+
+```
