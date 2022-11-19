@@ -70,6 +70,8 @@ const QUERY = gql`
 					}
 					variants(first: 1) {
 						nodes {
+							id
+							availableForSale
 							priceV2 {
 								amount
 								currencyCode
@@ -77,6 +79,10 @@ const QUERY = gql`
 							compareAtPriceV2 {
 								amount
 								currencyCode
+							}
+							selectedOptions {
+								name
+								value
 							}
 						}
 					}
