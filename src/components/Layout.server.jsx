@@ -28,10 +28,10 @@ export default function Layout({ children }) {
 					</Link>
 					<ul className="header-navigation">
 						<li>
-							<a href="#">Link 1</a>
+							<a href="/catalog">Catalog</a>
 						</li>
 						<li>
-							<a href="#">Link 2</a>
+							<a href="/collections/freestyle">Freestyle</a>
 						</li>
 						<li>
 							<a href="#">Link 3</a>

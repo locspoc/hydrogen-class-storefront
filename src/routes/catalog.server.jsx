@@ -17,7 +17,7 @@ export default function Catalog() {
 		},
 	} = data;
 
-	console.log(nodes);
+	// console.log(nodes);
 
 	return (
 		<Layout>
