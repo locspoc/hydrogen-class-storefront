@@ -67,3 +67,9 @@ npm install -D tailwindcss @tailwindcss/typography postcss autoprefixer
 npx tailwindcss init -p
 
 ```
+
+## Hero Icons
+
+```
+https://heroicons.com/
+```
