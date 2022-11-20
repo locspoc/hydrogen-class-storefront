@@ -7,5 +7,5 @@ export default function CartBubble() {
 		return null;
 	}
 
-	return <span>({totalQuantity})</span>;
+	return <span className="relative -top-1 text-sm">({totalQuantity})</span>;
 }

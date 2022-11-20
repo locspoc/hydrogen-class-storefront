@@ -56,7 +56,7 @@ export default function Article() {
 			<Suspense>
 				<Seo type="article" data={article} />
 			</Suspense>
-			<div className="article-page container">
+			<div className="article-page container prose">
 				<div className="article-page-header">
 					<h1>{article.title}</h1>
 					<span>

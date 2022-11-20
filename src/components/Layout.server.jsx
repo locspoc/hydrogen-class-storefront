@@ -24,19 +24,34 @@ export default function Layout({ children }) {
 				}}
 			/>
 			<header>
-				<div className="container header-inner">
-					<Link to="/" className="header-logo">
+				<div className="container flex items-center justify-between py-4">
+					<Link to="/" className="header-inner">
 						{shop.name}
 					</Link>
 					<ul className="header-navigation">
 						<li>
-							<a href="/catalog">Catalog</a>
+							<a
+								className="text-slate-600 hover:text-slate-800"
+								href="/catalog"
+							>
+								Catalog
+							</a>
 						</li>
 						<li>
-							<a href="/collections/freestyle">Freestyle</a>
+							<a
+								className="text-slate-600 hover:text-slate-800"
+								href="/collections/freestyle"
+							>
+								Freestyle
+							</a>
 						</li>
 						<li>
-							<a href="/blog/">Blog</a>
+							<a
+								className="text-slate-600 hover:text-slate-800"
+								href="/blog/"
+							>
+								Blog
+							</a>
 						</li>
 					</ul>
 					<Link to="/cart" className="header-cart-link">
@@ -46,6 +61,7 @@ export default function Layout({ children }) {
 							viewBox="0 0 24 24"
 							strokeWidth={1.5}
 							stroke="currentColor"
+							className="w-6 h-6"
 						>
 							<path
 								strokeLinecap="round"
