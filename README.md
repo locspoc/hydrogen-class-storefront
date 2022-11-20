@@ -38,7 +38,8 @@ yarn preview
 
 ## Caching Issue
 
-```yarn dev --force
+```
+yarn dev --force
 
 ```
 

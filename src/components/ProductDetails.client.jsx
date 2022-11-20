@@ -14,7 +14,7 @@ export default function ProductDetails({ product }) {
 		<ProductOptionsProvider data={product}>
 			<Image
 				data={product.media.nodes[0].image}
-				alt={product.media.nodes[0].image.altText}
+				altText={product.media.nodes[0].image.altText}
 				className="product-page-image"
 			/>
 			<ProductForm product={product} />
