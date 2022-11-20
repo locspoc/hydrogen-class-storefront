@@ -73,3 +73,9 @@ npx tailwindcss init -p
 ```
 https://heroicons.com/
 ```
+
+## GraphIQL
+
+```
+http://localhost:3000/graphiql
+```
