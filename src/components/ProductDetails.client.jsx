@@ -8,13 +8,14 @@ import {
 
 export default function ProductDetails({ product }) {
 	// console.log(product);
-	console.log(product.media.nodes[0].image.altText); // How to get altText?
+	console.log("image: ", product.media.nodes[0].image); // How to get altText?
+	console.log("altText: ", product.media.nodes[0].image.altText); // How to get altText?
 
 	return (
 		<ProductOptionsProvider data={product}>
 			<Image
 				data={product.media.nodes[0].image}
-				altText={product.media.nodes[0].image.altText}
+				alt={product.media.nodes[0].image.altText}
 				className="product-page-image"
 			/>
 			<ProductForm product={product} />
