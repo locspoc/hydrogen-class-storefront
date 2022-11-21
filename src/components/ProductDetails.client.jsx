@@ -74,10 +74,7 @@ function ProductForm({ product }) {
 					);
 				})}
 			</div>
-			<AddToCartButton
-				// disabled={isOutOfStock ? "true" : "false"}
-				className="add-to-cart"
-			>
+			<AddToCartButton disabled={isOutOfStock} className="add-to-cart">
 				{isOutOfStock ? "Out of stock" : "Add to cart"}
 			</AddToCartButton>
 
